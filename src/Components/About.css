@@ -1,0 +1,96 @@
+.outer2 {
+    width: 100%;
+  }
+  
+  .inner2 {
+    background-color: #00E88F; 
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .texto-centro {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.section1 {
+    margin: 0 auto;
+}
+
+  /* Ajusta a largura da div .botao para telas menores que 900px */
+  @media (max-width: 900px) {
+  }
+
+  .section2-container {
+    backdrop-filter: blur(9px) saturate(168%);
+    -webkit-backdrop-filter: blur(9px) saturate(168%);
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    padding: 0px 0 15px 0;
+    border-radius: 10px;
+    margin-top: 110px;
+    height: 140px;
+    box-shadow: 0px 5px 15px rgba(125, 177, 157, 0.171);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 85%;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .text-section {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .text-section h1,
+  .text-section h2,
+  .text-section p {
+    margin-bottom: 20px;
+  }
+  
+  .text-section button {
+    margin-bottom: 10px;
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .image-section img {
+    max-width: 300px;
+    margin-top: 20px;
+  }
+
+  .carousel-image {
+    object-fit: contain; 
+    height: 50px;
+    max-height: 50px;
+    min-width: 50px;
+    margin-top: 15px;
+}
+.home-image-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 800px) {
+  .home-image-section {
+    margin-top: 2.5rem;
+  }
+}
+  
