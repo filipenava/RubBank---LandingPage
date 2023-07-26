@@ -23,9 +23,9 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="home-container">
+    <div className="home-container" style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', marginInline: '2.2rem' }}>
       {/* <Menu /> */}
-      <div className="home-banner-container">
+      <div className="home-banner-container" >
         {/* <div className="home-bannerImage-container">
           <img src={BannerBackground} alt="" />
         </div> */}
@@ -37,6 +37,7 @@ const Home = () => {
           <p className="primary-text">
           A RubBank oferece uma experiência personalizada para lhe atender. Com ele, você pode realizar transferências de forma simples e eficiente, e ter controle sobre suas finanças.
           </p>
+          
           <div className="button-container">
             <button className="secondary-button scaleup-button">
               Baixe Agora! <FiArrowRight />{" "}
@@ -55,3 +56,4 @@ const Home = () => {
 };
 
 export default Home;
+

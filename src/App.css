@@ -285,11 +285,13 @@ nav {
   }
 }
 .financas-section-text-container {
-  flex: 1;
   justify-content: center;
   align-items: flex-start;
   display: flex;
   flex-direction: column;
+  /* background-color: #5c0ba8; */
+  width: 40rem;
+  padding-inline: 4.2rem;
 }
 .financas-buttons-container {
   margin-top: 2rem;
@@ -835,6 +837,7 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  /* background-color: #00E88F; */
 }
 
 .valores-section-container {
@@ -852,6 +855,7 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 40rem;
+  margin-bottom: 3rem;
 }
 .valores-section-text-container-down {
   flex: 2 !important;
@@ -944,4 +948,26 @@ nav {
 
 .scaleup-button {
   animation: scaleup 4s ease-in-out;
+}
+
+.modal {
+  position: fixed; /* Modal fixo no topo da página */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Garante que o modal aparece acima do conteúdo da página */
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
 }

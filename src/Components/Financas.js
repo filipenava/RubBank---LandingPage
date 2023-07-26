@@ -1,8 +1,7 @@
 import React from "react";
-import AboutBackground from "../Assets/about-background.png";
-import AboutBackgroundImage from "../Assets/about-background-image.png";
+
 import Extrato from "../Assets/Mockup-rubbank-1-800x1020.png";
-import { BsFillPlayCircleFill } from "react-icons/bs";
+
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import playstore from "../Assets/google-play-badge.png";
 import appstore from "../Assets/app-store-badge.png";
