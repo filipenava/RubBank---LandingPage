@@ -53,11 +53,11 @@ const Depoimentos = () => {
   const currentFeedbacks = workInfoData.slice(currentPage * feedbacksPerPage, (currentPage + 1) * feedbacksPerPage);
 
   return (
-    <div className="depoimentos-section-wrapper">
+    <div className="depoimentos-section-wrapper" style={{ paddingInline: '1rem'}}>
       <div className="depoimentos-section-bottom">
         {currentFeedbacks.map((data, index) => (
-          <div className={`depoimentos-section-info ${prevPage < currentPage ? 'moveRight' : 'moveLeft'}`} key={data.image + data.text}>
-            <div className="depoimentos-testimonial-section-bottom">
+          <div className={`depoimentos-section-info ${prevPage < currentPage ? 'moveRight' : 'moveLeft'}`} key={data.image + data.text} >
+            <div className="depoimentos-testimonial-section-bottom" style={{ maxWidth: '50rem', paddingBlock: '1rem', paddingInline: '3rem'}}>
               <p>{data.text}</p>
               <div className="depoimentos-image-text">
                 <div className="testimonial-section-top">

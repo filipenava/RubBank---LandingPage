@@ -290,8 +290,8 @@ nav {
   display: flex;
   flex-direction: column;
   /* background-color: #5c0ba8; */
-  width: 40rem;
-  padding-inline: 4.2rem;
+
+  
 }
 .financas-buttons-container {
   margin-top: 2rem;
@@ -832,7 +832,7 @@ nav {
 }
 .financas-section-container {
   margin: 5rem 5rem 0 5rem;
-  position: relative;
+
   display: flex;
   flex-direction: row;
   align-items: center;
